@@ -1,4 +1,4 @@
-intro-to-nltk
+Intro to NLTK
 =============
 
 Introduction code to NLTK
