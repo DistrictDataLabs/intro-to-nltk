@@ -14,4 +14,5 @@ readability-lxml==0.3.0.5
 requests==2.4.3
 scipy==0.14.0
 six==1.8.0
+unicodecsv==0.9.4
 wsgiref==0.1.2
