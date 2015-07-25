@@ -1,5 +1,6 @@
 beautifulsoup4==4.3.2
 chardet==2.3.0
+feedparser==5.1.3
 gensim==0.10.2
 lxml==3.4.0
 matplotlib==1.4.2
@@ -12,7 +13,9 @@ python-dateutil==2.2
 pytz==2014.7
 readability-lxml==0.3.0.5
 requests==2.4.3
+scikit-learn==0.15.2
 scipy==0.14.0
 six==1.8.0
 unicodecsv==0.9.4
-wsgiref==0.1.2
+## The following requirements were added by pip freeze:
+wheel==0.24.0
