@@ -129,6 +129,8 @@ if __name__ == '__main__':
     print "    Accuracy %0.3f%%" % (nltk.classify.accuracy(bayes, test) * 100)
     print
 
+    print maxent.show_most_informative_features()
+
     # print "Decision Tree took %0.3f seconds to train" % ddelta
     # print "    Accuracy %0.3f%%" % (nltk.classify.accuracy(dtree, test) * 100)
     # print

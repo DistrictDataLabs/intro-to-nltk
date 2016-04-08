@@ -121,8 +121,9 @@ def train_classifier(training, path='classifier.pickle'):
     """
     Trains the classifier and saves it to disk.
     """
-    classifier = nltk.MaxentClassifier.train(training,
-                algorithm='megam', trace=2, gaussian_prior_sigma=1)
+    # classifier = nltk.MaxentClassifier.train(training,
+    #             algorithm='megam', trace=2, gaussian_prior_sigma=1)
+    classifier = nltk.NaiveBayesClassifier.train(training)
 
     with open(path, 'wb') as out:
         pickle.dump(classifier, out)

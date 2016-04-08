@@ -43,4 +43,6 @@ if __name__ == '__main__':
 
     print mm
     lda = gensim.models.ldamodel.LdaModel(corpus=mm, id2word=id2word, num_topics=10, update_every=1, passes=20)
-    print lda.print_topics(10)
+    for topic in lda.print_topics(10):
+        print topic
+        print
