@@ -37,7 +37,7 @@ if __name__ == '__main__':
     id2word = gensim.corpora.Dictionary(documents())
     # id2word = gensim.corpora.Dictionary.load('corpus.txt')
     corpus  = [id2word.doc2bow(doc) for doc in documents()]
-    # gensim.corpora.MmCorpus.serialize('corpus.mm', corpus)
+    gensim.corpora.MmCorpus.serialize('corpus.mm', corpus)
 
     mm = gensim.corpora.MmCorpus('corpus.mm')
 

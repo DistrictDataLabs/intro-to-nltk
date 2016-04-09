@@ -55,3 +55,9 @@ target/
 
 venv
 .ipynb_checkpoints
+fixtures/*
+!fixtures/*.tgz
+!fixtures/*.zip
+!fixtures/*.opml
+
+.DS_Store
